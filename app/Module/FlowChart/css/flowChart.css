@@ -1,0 +1,13 @@
+circle.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+line.link {
+  stroke: green;
+  stroke-opacity: 1.5;
+}
+
+.title{
+  word-wrap: break-word;
+  white-space: normal;
+}
