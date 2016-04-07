@@ -26,7 +26,7 @@ angular.module('myApp.Module.FlowChart', ['ngRoute'])
             .attr('width', w)
             .attr('height', h);
 
-        d3.json("http://localhost/flow-chart/Module/FlowChart/sample.json", function (json) {
+        d3.json("http://private-9f3c8-angstrom.apiary-mock.com/system", function (json) {
             var delta = (2 * pi) / json.Components.length;
 
 
